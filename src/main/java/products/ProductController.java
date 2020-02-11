@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
-@RequestMapping("/products")
+@RequestMapping("https://productsspring.herokuapp.com")
 public class ProductController {
 
 	@Autowired
